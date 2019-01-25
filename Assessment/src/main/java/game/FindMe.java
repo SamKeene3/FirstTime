@@ -20,6 +20,8 @@ public class FindMe {
 				+ "reflected in the murky grey water which reaches up your shins.\r\n"
 				+ "Some black plants barely poke out of the shallow water.\r\n"
 				+ "Try \"north\", \"south\", \"east\", or \"west\"\r\n" + " \n PLEASE Type \"Go\" then ENTER YOUR FIRST COMMAND!!");
+		String Second = EnterDirection.nextLine();
+		String Start  = EnterDirection.next("Go");
 		while (PlayerPosStartY != PositionY || PlayerPosStartX != PositionX) {
 			String Direction = EnterDirection.nextLine();
 			switch (Direction) {
